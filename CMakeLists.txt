@@ -549,6 +549,8 @@ add_library(
   crc.cpp
   DifferentialTest.cpp
   HashMapTest.cpp
+  LongNeighborTest.cpp
+  Birthday.cpp
   Hashes.cpp
   ${HIGHWAY_SRC}
   ${SSE2_SRC}
