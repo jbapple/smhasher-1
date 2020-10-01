@@ -4,6 +4,7 @@
 #pragma once
 
 void SetAffinity ( int cpu );
+double cpu_freq();
 
 #ifndef __x86_64__
  #if defined(__x86_64) || defined(_M_AMD64) || defined(_M_X64)
